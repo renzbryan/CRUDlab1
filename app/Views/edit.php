@@ -67,32 +67,9 @@
         button[type="button"]:hover {
             background-color: #c0392b;
         }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        .category-links a {
-            margin-right: 10px;
-            text-decoration: none;
-            color: #3498db;
-            font-weight: bold;
-        }
-        .category-links a:hover {
-            text-decoration: underline;
-        }
+
     </style>
 </head>
-<header>
-            <h1>Product List</h1>
-            <div class="category-links">
-                <a href="#">Category 1</a> <!-- Replace with actual category names and URLs -->
-                <a href="#">Category 2</a>
-                <a href="#">Category 3</a>
-                <!-- Add more categories as needed -->
-            </div>
-        </header>
 <body>
 <h1>Edit Product</h1>
 <form action="<?= base_url('/update') ?>" method="post">

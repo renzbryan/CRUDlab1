@@ -67,8 +67,25 @@
         button:hover {
             background-color: #2980b9;
         }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .category-links a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+        .category-links a:hover {
+            text-decoration: underline;
+        }
     </style>
+
 </head>
+
 <body>
     <?php if(session()->getFlashdata('msg')):?>
         <?= session()->getFlashdata('msg') ?>
